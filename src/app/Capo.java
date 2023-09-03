@@ -1,6 +1,7 @@
 package app;
 
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public class Capo {
     private int id;
@@ -76,5 +77,13 @@ public class Capo {
 
     public void setDisponibile(boolean disponibile) {
         this.disponibile = disponibile;
+    }
+
+        public long getDurata() {
+        LocalDate dataInserimento = getDataInserimento();
+        LocalDate dataAttuale = LocalDate.now();
+        
+        long durataInGiorni = ChronoUnit.DAYS.between(dataInserimento, dataAttuale);
+        return durataInGiorni;
     }
 }

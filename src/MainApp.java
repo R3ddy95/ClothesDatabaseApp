@@ -33,12 +33,13 @@ public class MainApp {
 
             switch (scelta) {
                 case 1:
-                    System.out.println("Capi second hand disponibili:");
+                    System.out.println("Elenco dei capi disponibili:");
+                    System.out.println("ID - Typology - Brand - Data - Durata - Luogo - Disponibile");
                     for (Capo capo : capi) {
-                        if (capo.isDisponibile()) {
-                            System.out.println(capo.getId() + " - " + capo.getMarca() + " " + capo.getTipologia() + " - " + capo.getPrezzo() + " EUR");
-                        }
-                    }
+                        String disponibile = capo.isDisponibile() ? "SI" : "NO";
+                        System.out.println(capo.getId() + " - " + capo.getTipologia() + " - " + capo.getMarca() +
+                               " - " + capo.getDataInserimento() + " - " + capo.getDurata() + " Days" + " - " + "Naples" + " - " + disponibile);
+                }
                     break;
                 case 2:
                     System.out.println("Inserisci l'ID del capo che vuoi acquistare:");
