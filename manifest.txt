@@ -1,0 +1,2 @@
+Main-Class: MainApp
+Class-Path: . controller/ model/ server/
