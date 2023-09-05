@@ -96,7 +96,7 @@ public class Controller {
             System.out.println("Brand: " + capoDaPrenotare.getMarca());
             System.out.println("Size: " + capoDaPrenotare.getTaglia());
             System.out.println("Price: " + capoDaPrenotare.getPrezzo() + " EUR");
-            System.out.println("Available: " + (capoDaPrenotare.isDisponibile() ? "SI" : "NO"));
+            System.out.println("Available: " + (capoDaPrenotare.isDisponibile() ? "YES" : "NO"));
     
             // Generate a new ID for the sale
             int nuovoIdVendita = vendite.size() + 1;
