@@ -1,5 +1,5 @@
 <meta name="title" content="Clothes Database App">
-<meta name="description" content="A simple application of a used and second hand clothes store, using only java and JAR.">
+<meta name="description" content="A Database made in Java that allows users to perform various operations related to the available clothing items, users, and sales">
 <meta name="keyword" content="Clothes Database App, ClothesDatabase, Java Database, Clothes Database App Github, Github, R3ddy95, R3ddy95 Github, Java">
 
 # Clothes Database App 👚​ 
@@ -10,15 +10,15 @@ It provides a command-line interface for users to interact with the database. Wh
 ## How it works
 The application starts by presenting a menu to the user.
 
-<img src="images/ClothesDatabaseApp.png" width="100%" height="100%">
+<img src="images/ClothesDatabaseApp.png" width="80%" height="80%">
 
 For example, if the user selects option 1, the program displays a list of available clothing items.
 
-<img src="images/ClothesDatabaseApp2.png" width="100%" height="100%">
+<img src="images/ClothesDatabaseApp2.png" width="80%" height="80%">
 
 If the user selects option 2, the program guides them through the process of purchasing an item and updates the data accordingly.
 
-<img src="images/ClothesDatabaseApp3.png" width="100%" height="100%">
+<img src="images/ClothesDatabaseApp3.png" width="80%" height="80%">
 
 ## Languages
 * Java
