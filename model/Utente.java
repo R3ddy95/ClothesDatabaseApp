@@ -1,4 +1,4 @@
-package app;
+package model;
 
 import java.time.LocalDate;
 
@@ -19,7 +19,7 @@ public class Utente {
         this.documentoId = documentoId;
     }
 
-    // Metodi getter e setter per ogni campo
+    // Getter and Setter method for all the users data
     public int getId() {
         return id;
     }

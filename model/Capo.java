@@ -1,4 +1,4 @@
-package app;
+package model;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -22,7 +22,7 @@ public class Capo {
         this.disponibile = disponibile;
     }
 
-    // Metodi getter e setter per ogni campo
+    // Getter and Setter method for all the clothing items data
     public int getId() {
         return id;
     }

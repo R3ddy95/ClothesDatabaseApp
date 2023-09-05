@@ -1,4 +1,4 @@
-package app;
+package model;
 
 public class Vendita {
     private int id;
@@ -11,7 +11,7 @@ public class Vendita {
         this.idUtente = idUtente;
     }
 
-    // Metodi getter e setter per ogni campo
+    // Getter and Setter method for all the sales records data
     public int getId() {
         return id;
     }

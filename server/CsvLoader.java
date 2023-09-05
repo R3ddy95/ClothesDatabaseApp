@@ -1,4 +1,8 @@
-package app;
+package server;
+
+import model.Capo;
+import model.Utente;
+import model.Vendita;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CsvLoader {
+
+    // Load users from the csv file csv/utenti.csv
     public static List<Utente> caricaUtentiDaCsv(String fileName) {
         List<Utente> utenti = new ArrayList<>();
 
@@ -31,6 +37,7 @@ public class CsvLoader {
         return utenti;
     }
 
+    // Load clothing items from the csv file csv/capi.csv
     public static List<Capo> caricaCapiDaCsv(String fileName) {
         List<Capo> capi = new ArrayList<>();
 
@@ -55,6 +62,7 @@ public class CsvLoader {
         return capi;
     }
 
+    // Load sales records from the csv file csv/vendite.csv
     public static List<Vendita> caricaVenditeDaCsv(String fileName) {
         List<Vendita> vendite = new ArrayList<>();
 
